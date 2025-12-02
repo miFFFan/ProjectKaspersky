@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="my-table">
+        <thead>
+            <tr>
+                <th>Название раздела</th>
+                <th>О ком Информация</th>
+                <th>Дата написания</th>
+                <th>Контактный номер</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Биография</td>
+                <td rowspan="4">Евгений Касперский</td>
+                <td rowspan="4">12:35 10.08.2025</td>
+                <td rowspan="4">8 (654) - 976 - 03 - 04</td>
+            </tr>
+            <tr>
+                <td>Основные достижения/изобретения</td>
+            </tr>
+            <tr>
+                <td>Интересные факты</td>
+            </tr>
+            <tr>
+                <td>Список терминов</td>
+            </tr>
+            
+        </tbody>
+    </table><table class="my-table">
+        <thead>
+            <tr>
+                <th>Название раздела</th>
+                <th>О ком Информация</th>
+                <th>Дата написания</th>
+                <th>Контактный номер</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Биография</td>
+                <td rowspan="4">Евгений Касперский</td>
+                <td rowspan="4">12:35 10.08.2025</td>
+                <td rowspan="4">8 (654) - 976 - 03 - 04</td>
+            </tr>
+            <tr>
+                <td>Основные достижения/изобретения</td>
+            </tr>
+            <tr>
+                <td>Интересные факты</td>
+            </tr>
+            <tr>
+                <td>Список терминов</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <form id="register" action="">
+        <label for="login">Введите логин</label><br>
+        <input  autofocus type="text" id="login" name="login" placeholder="Логин" required><br>
+        <label for="password" >Введите пароль</label><br>
+        <input type="password" id="password" name="password" placeholder="Пароль" required><br>
+        <input type="radio" name="role" id="student" checked>
+        <label for="student">Студент</label><br>
+        
+        <input type="radio" name="role" id="teacher">
+        <label for="teacher">Учитель</label><br>
+
+        <label for="occupation">Направления подготовки</label><br>
+        <select name="occupation" id="occupation">
+            <option value="IT">
+                Программист
+            </option>
+            <option value="Music">
+                Музыкант
+            </option>
+            <option value="English">
+                Лингвист
+            </option>
+        </select><br>
+
+        <label for="about">О себе</label><br>
+        <textarea name="about" id="about" ></textarea><br>
+
+
+
+        <input type="submit" value="Зарегестрироваться" >
+
+        <input type="reset" name="" id="">
+    </form>
+
+</body>
+</html>

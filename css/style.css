@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+body {
+    
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+footer {
+    background-color: white;
+    color:black;
+    padding: 20px 40px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+#about {
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+
+#articles {
+    padding: 20px 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+
+blockquote {
+    padding: 40px 20px;
+}
+
+main {
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+
+#content {
+    padding: 40px 100px;
+}
+
+#achiev1 {
+    padding: 40px;
+}
+
+#achiev2 {
+    padding: 40px;
+}
+
+
+time {
+    padding: 40px 40px;
+}
+
+#termins {
+    padding: 40px 40px;   
+}
+
+#photo {
+    padding: 10px 30%;
+    width: 40%;
+    height: 40%;
+}
+#time {
+    padding: 100px;
+}
+
+#foot {
+    padding: 25px 40px;
+}
+
+
+/* body {
+    border: 100px solid red;
+    font-style: italic;
+} */
+
+
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: darkmagenta;
+}
+
+a:hover{
+    color: green;
+}
+
+ul.nav li{
+    color:purple
+}
+a:focus {
+    color: gold;
+}
+
+a:focus {
+    color: purple;
+}
+
+ 
+ol.links li {
+    background-color: gray;
+} 
+
+
+
+.my-table {
+    border: solid 10px black;
+    border-collapse: collapse;
+}
+
+.my-table td,
+.my-table th{
+    border: solid 4px black;
+    padding: 10px 15px;
+}
+
+
+/* .my-table tr:nth-child(odd){
+    color: red;
+}
+
+.my-table td:nth-child(even),
+.my-table th:nth-child(even){
+    background-color: green;
+}
+
+.my-table tr:last-child td:nth-child(2){
+    text-align: center;
+} */
+#articles li:nth-child(even){
+    padding: 10px;
+    background-color: gainsboro;
+    width: 20%;
+}
+
+#articles li:nth-child(odd){
+    padding: 17px;
+    
+}
+#terminUs::before{
+    color: red;
+    border: solid 3px crimson;
+    padding: 10px;
+    content: "Важно! ";
+    background-color: aqua;
+}
+
+
+#register{
+    width: 300px;
+    background-color: gray;
+    border-radius: 50px;
+    padding: 60px;
+    margin: 10px auto;
+}
+
+/* селектор атрибутов, задаем стиль лишь к логину и паролю*/
+#register input[type=text],
+#register input[type=password]{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+#register input[type=submit]{
+    background-color: darkred;
+    border-radius: 16px;
+    color: black;
+    padding: 7px;
+    border: none;
+}
+
+#register input[type=submit]:hover{
+    background-color: black;
+    color: green;
+}
+
+#register textarea,
+#register select{
+    background-color: beige;
+    border-radius: 16px;
+    color: black;
+    padding: 17px;
+    border: none;
+}
+
+#register input[type=radio]{
+    accent-color: green;
+}
+
+.my-table tr:nth-child(odd){
+    color: green;
+    text-align: center;
+
+}
+.my-table tr:last-child td:nth-child(1){
+    text-align: right;
+    color: purple;
+} 
+
+
+#contact-form {
+    color: white;
+    padding: 10px 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+#contact-form input[type=text], 
+#contact-form input[type=email]{
+    height: 55px;
+    width: 250px;
+    color: black;
+    border: black solid 2px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+
+}
+#contact-form input[type=submit]{
+    color: bisque;
+    background-color: black;
+    border-radius:16px;
+    width: 250px;
+    
+    
+}
+
+
+#contact-form input[type=submit]:hover{
+ 
+    background-color: rgb(194, 60, 194);
+    border: black solid 2px;
+   
+}
+
+#contact-form textarea{
+    background-color: white;
+    border-radius: 16px;
+    color: black;
+    padding:17px;
+    width: 230px;
+    border: black solid 2px;
+    
+}
+#contact-form select{
+    background-color: white;
+    border-radius: 16px;
+    color: black;
+    padding: 17px;
+    width: 265px;
+    border: black solid 2px;
+    height: 55px;
+}
+
+#contact-form input[type=tel],
+#contact-form input[type=date]{
+    color: black;
+    width: 230px;
+    border: black solid 2px;
+    border-radius: 16px;
+    height: 35px;
+    padding:17px;
+}
+    
+main p:first-line{
+    color: tomato;
+}
+
+p:lang(en){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size:large;
+    
+}
+
+p:lang(ru){
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+}
+
+.about h2{
+    color: green;
+    background-color: blueviolet;
+}
+.about p{
+    color: orange;
+}
+.about h3{
+    color: crimson;
+    background-color: blueviolet;
+}
+.about blockquote{
+    color: aquamarine;
+}
+
+footer p{
+    color: green;
+}
+
+.telmail a{
+    color: blue;
+}
+
+.about img+h3{
+    margin-top: 20px;
+}
+
+
+.my-table{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+head{
+    font-family:  "PT Sans", sans-serif;;
+}
+
+footer img{
+    border: black solid 2px;
+}
